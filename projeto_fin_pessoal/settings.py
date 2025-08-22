@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ho#pvj-bvturv((8zq%ic5rp%_!9b13&^$jj4rxt_j2@gxy96s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['DA3.pythonanywhere.com']
 
 
 # Application definition
@@ -118,7 +118,7 @@ LOGIN_URL = 'login'  # Nome da URL de login
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOR = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
